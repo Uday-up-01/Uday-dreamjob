@@ -22,7 +22,7 @@ body {
 }
 
 .home-btn {
-    margin-right: 750px;
+    margin-right: 570px;
     padding: 0;
     display: flex;
     align-items: center;
@@ -83,20 +83,37 @@ body {
     background-color: rgb(181, 135, 19);
 }
 
-#login{
+#Userlogin{
     margin-left: 5px;
-    margin-right: 10px;
     border: 0px;
-    background-color: #182848;
+    background-color: #1f3258;
     color: #ffffff;
 }
 
-#login:hover {
+#Userlogin:hover {
     border: 2px solid #ddd;
     background-color: #182848;
 }
 
-#login:active{
+#Userlogin:active{
+    border: 2px solid #ddd;
+    background-color: #182848;
+}
+
+#Adminlogin{
+    margin-left: 5px;
+    margin-right: 10px;
+    border: 0px;
+    background-color: #1c2e53;
+    color: #ffffff;
+}
+
+#Adminlogin:hover {
+    border: 2px solid #ddd;
+    background-color: #182848;
+}
+
+#Adminlogin:active{
     border: 2px solid #ddd;
     background-color: #182848;
 }
@@ -115,6 +132,7 @@ body {
     padding-top: 10px;
     padding-left: 10px;
 }
+
 #headname{
     max-width: 800px;
     margin: 10px auto;
